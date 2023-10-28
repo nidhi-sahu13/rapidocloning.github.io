@@ -1,0 +1,97 @@
+@import url(rapido1.css);
+@import url(rapido2.css);
+@import url(rapido3.css);
+@import url(rapido4.css);
+@import url(rapido5.css);
+@import url(rapido6.css);
+@import url(footer.css);
+body{
+    overflow-x: hidden;
+} 
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+  
+    position: sticky !important;
+    top: 0%;
+    z-index: 111;
+    background-color: #fff !important;
+}
+
+.navbar-brand>img{
+    margin-left: 80%;
+    height: 70px;
+    width: 200px;
+}
+
+
+.navbar-nav{
+ /* border: 2px solid red; */
+ width:80%;
+font-weight: 600;
+ display: flex;
+ justify-content:flex-end;
+ gap:14px;
+ 
+}
+.navbar-nav>a{
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+    border-bottom:3px solid #000 ;
+   
+}
+.navbar-nav>a+a{
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+    border: none;
+
+}
+.navbar-nav>a+a:hover{
+    cursor: pointer;
+    border-bottom:3px solid #000;
+}
+#btn{
+  
+    width:13%;
+    color: #fff;
+    background-color: #000;
+    border-radius: 20px 20px 0px 20px;
+    font-weight: 600;
+}
+#downloadapp{
+    display: none;
+}
+
+
+@media only screen and (max-width:426px){
+ 
+    .navbar-brand>img{
+        margin-left:0%;
+        height: 50px;
+        width: 110px;
+    }
+    #downloadapp{
+        display:block;
+        /* border: 2px solid red; */
+        margin-left: 30%;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif !important;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+    .navbar-toggler-icon{
+        display: inline-block;
+
+       fill: #f9c935 !important;
+       height: 25px !important;
+       width: 20px !important;
+      
+    }
+}

@@ -1,0 +1,122 @@
+#article1{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    height: 80vh;
+}
+#article1>h1{
+    /* border: 2px solid blue; */
+       color: #000000;
+       font-size: 30px;
+       line-height: 60px;
+       text-align: center;
+       margin: 0 auto;
+       font-weight: 700;
+       /* position: relative; */
+       /* display: block; */
+}
+#article1>h1 span{
+    display: block;
+    width:8%;
+    border: 3px solid #F9C935;
+    margin: auto;
+}
+#article1>h1+ul{
+    list-style: none;
+    /* border: 2px solid red; */
+    display: flex;
+    width:40%;
+    margin: auto;
+    margin-top:6%;
+}
+#article1>h1+ul>li{
+    /* border: 2px solid aqua; */
+    
+    width: 50%;
+    height: 50px;
+    height: 50px;
+    border-radius: 25px 0 0 5px;
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #F9C935;
+}
+#article1>h1+ul>li+li{
+    border-radius: 0 5px 25px 0;
+    background-color: #fff;
+}
+#article1>h1+ul+div{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: auto;
+    margin-top:3%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top{margin: auto;
+    height: 140px !important;
+    width: 180px !important;
+}
+.card-title{
+    text-align: center !important;
+    color: #000;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+   
+}
+.card-text{
+    color: #4B4B4B !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+
+}
+.card{
+    border: none !important;
+}
+@media only screen and (max-width:426px){
+    #article1{
+        /* border: 2px solid aqua; */
+        width: 100%;
+        margin:0%;
+        height:195vh;
+    }
+    #article1>h1{
+        /* border: 2px solid blue; */
+         font-size: 24px;   
+    }
+    #article1>h1 span{
+        width:15%;
+    }
+    #article1>h1+ul{
+        /* border: 2px solid red; */
+        width:100% !important;
+        margin-left:0% !important;
+        margin:0px;
+        margin-top: 6%;
+        
+    }
+  
+  
+    #article1>h1+ul+div{
+        /* border: 2px solid red; */
+        width:85%;
+        margin:auto;
+        margin-top:17%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around !important;
+    }
+    .card{
+       margin-left: 7%;
+    }
+}

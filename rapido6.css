@@ -1,0 +1,203 @@
+#article2{
+    /* border: 2px solid red; */
+    width:90%;
+    /* margin: auto; */
+    height: 120vh;
+    margin-top: 10%;
+    margin-left:15%;
+    display: flex;
+    position: relative;
+}
+#article2>#better-1>h1{
+    /* border: 2px solid blue; */
+       color: #000000;
+       width: 100%;
+       font-size: 28px;
+       line-height: 60px;
+       text-align:left;
+       /* margin: 0 auto; */
+       font-weight: 700;
+       /* position: relative; */
+       /* display: block; */
+}
+#better-1{
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 60vh;
+    margin-top: 15%
+}
+#article2>#better-1>h1>span{
+    display:block;
+    width: 60px;
+    border: 3px solid #f9c935;
+}
+#article2>#better-1>h1+h2{
+    font-size: 22px;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 10%;
+    font-weight: 100;
+    text-align:left;
+    color: #4B4B4B;
+}
+#better-1+div{
+    height: 85vh;
+    width:65%;
+    background-color: rgba(255,255,210,0.541);
+    border-radius: 251px;
+    transform: rotate(-160deg);
+    position:absolute;
+    top: 15%;
+    left:35%;
+    /* z-index: -1; */
+}
+.image17{
+    transform: rotate(160deg);
+    border-radius: 92px 92px 5px 92px;;
+  position: absolute;
+  left:65%;
+  top:30%;
+
+}
+.image17+span{
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-color: #fff;
+    width:130px;
+    height: 55px;
+    transform: rotate(160deg);
+    position: absolute;
+    left:52%;
+    top:65%;
+    border-radius: 29px 29px 29px 5px;
+}
+.image18{
+    transform: rotate(160deg);
+    border-radius: 5px 142px 142px 142px;
+    position: absolute;
+    left: 23%;
+    top:-10%;
+}
+.image18+span{
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-color:#f9c935;
+    width:55px;
+    height:192px;
+    transform: rotate(160deg);
+    position: absolute;
+    left:53%;
+    top:-10%;
+    border-radius: 39px 5px 39px 39px;
+}
+
+
+@media only screen and (max-width:426px){
+    #article2{
+        /* border: 2px solid blue; */
+        width:100%;
+        /* margin: auto; */
+        height: 120vh;
+        margin-top:0% !important;
+        margin-left:0%;
+        position: relative;
+        display: flex !important;
+        flex-direction:column!important;
+       
+    }
+    #article2>#better-1>h1{
+        /* border: 2px solid blue; */
+           color: #000000;
+           width:100%;
+         
+           line-height: 30px;
+           text-align:center;
+          
+    }
+    #better-1{
+        /* border: 2px solid red; */
+        width:100%;
+        height: 70vh;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column !important;
+    }
+    #article2>#better-1>h1>span{
+        display:block;
+        margin-left:40%;
+        margin-top: 0%;
+        width: 60px;
+        border: 3px solid #f9c935;
+    }
+    #article2>#better-1>h1+h2{
+        font-size: 20px;
+        /* border: 2px solid aqua; */
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        font-weight: 100;
+        text-align:center;
+        color: #4B4B4B;
+    }
+    #better-1+div{
+        height: 125vh;
+        width:100%;
+        margin-left: 0%;
+        /* border: 2px solid aqua; */
+        background-color:transparent;
+        border-radius:0px;
+        transform: rotate(0deg);
+        position:absolute;
+        top:33%;
+        left:0%;
+        /* display: none; */
+        /* z-index: -1; */
+    }
+    .image17{
+        transform: rotate(0deg);
+        border-radius: 92px 92px 5px 92px;;
+      position: absolute;
+      left:25%;
+      top:5%;
+      height: 200px !important;
+      width: 110px !important;
+      /* display: none; */
+    }
+    .image17+span{
+        /* border: 2px solid red; */
+        display: inline-block;
+        background-color:#f9c935;
+        width:70px;
+        height: 55px;
+        transform: rotate(0deg);
+        position: absolute;
+        left:54%;
+        top:10%;
+        border-radius: 29px 29px 29px 5px;
+        /* display: none; */
+    }
+    .image18{
+        transform: rotate(0deg);
+        border-radius: 5px 142px 142px 142px;
+        position: absolute;
+        left:55%;
+        top:29%;
+        height: 200px !important;
+        width: 110px !important;
+        /* display: none; */
+    }
+    .image18+span{
+        /* border: 2px solid red; */
+        display: inline-block;
+        background-color:#f9c935;
+        width:55px;
+        height:80px;
+        transform: rotate(0deg);
+        position: absolute;
+        left:38%;
+        top:40%;
+        border-radius: 39px 5px 39px 39px;
+        /* display: none; */
+    }
+}
+
